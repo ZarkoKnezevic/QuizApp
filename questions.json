@@ -1,0 +1,46 @@
+[{
+        "question": "Unter uns eine Gruppe von Atollen. Was sehen wir?",
+        "asnwers": [{
+                "text": "Die Malediven",
+                "correct": "richtig",
+                "percentage": 33
+            },
+            {
+                "text": "Die Azoren",
+                "correct": "falsch",
+                "percentage": 67
+            }
+        ],
+        "explanation": "<span class='u-bold'>Das sind die Malediven</span><br>Male (MLE) ist eines von vielen attraktiven Lufthansa Urlaubszielen. Lassen Sie sich vom Winterflugplan 2017/18 inspirieren. Sicher ist auch für Ihre Kunden etwas dabei."
+    },
+    {
+        "question": "Unter uns eine Gruppe von Tollen. Was sehen wir?",
+        "asnwers": [{
+                "text": "Die Bali",
+                "correct": "richtig",
+                "percentage": 50
+            },
+            {
+                "text": "Die Azoren",
+                "correct": "falsch",
+                "percentage": 50
+            }
+        ],
+        "explanation": "<span class='u-bold'>Das sind die Bali</span><br>Bali ist eines von vielen attraktiven Lufthansa Urlaubszielen. Lassen Sie sich vom Winterflugplan 2017/18 inspirieren. Sicher ist auch für Ihre Kunden etwas dabei."
+    },
+    {
+        "question": "Unter uns eine Gruppe von Ollen. Was sehen wir?",
+        "asnwers": [{
+                "text": "Die Bali",
+                "correct": "falsch",
+                "percentage": 10
+            },
+            {
+                "text": "Die Azoren",
+                "correct": "richtig",
+                "percentage": 90
+            }
+        ],
+        "explanation": "<span class='u-bold'>Das sind die Azoren</span><br>Azoren ist eines von vielen attraktiven Lufthansa Urlaubszielen. Lassen Sie sich vom Winterflugplan 2017/18 inspirieren. Sicher ist auch für Ihre Kunden etwas dabei."
+    }
+]

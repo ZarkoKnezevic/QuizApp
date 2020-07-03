@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+ <body>
+    <div class="container">
+        <!--placeholderImage-->
+        <div class="header">
+            <div class="logo logo--header"></div>
+            <!--logo-->
+        </div>
+        <!--header-->
+        <div class="body">
+            <div class="backgroundImage"></div>
+            <!--backgroundImage-->
+            <div class="content content--start">
+                <div class="content__heading">World Travel Quiz</div>
+                <!--content__heading-->
+                <div class="content__subheading">Wir wünschen viel Spaß und viel Erfolg.</div>
+                <!--content__subheading-->
+                <div class="content__button" data-button="start">Spiel starten</div>
+                <!--content__button-->
+            </div>
+            <div class="content content--result">
+                <div class="content__heading">World Travel Quiz</div>
+                <!--content__heading-->
+                <div class="content__subheading" data-question='result-subheading'>Wir wünschen viel Spaß und viel Erfolg.</div>
+                <!--content__subheading-->
+                <div class="content__button" data-button="restart">Neu Starten</div>
+                <!--content__button-->
+            </div>
+            <!--content-->
+            <div class="question__container">
+                <div class="circle__container">
+                </div>
+                <div class="question">
+                    <div class="question__info">
+                        <div class="question__text" data-question='question'></div>
+                <!--question__text-->
+                        <div class="questionCard__container" data-question='card-container'></div>
+                        <!--question__card-->
+                    </div>
+                    <!--question__info-->
+                    <div class="option__container" data-question='options'></div>
+                    <!--option__container-->
+                    <!--buttonNext-->
+                </div>
+                <!--question-->
+                <div class="buttonNext" data-button='next'>
+                    <div class="buttonNext__chevron"></div>
+                    <!--buttonNext__chevron-->
+                </div>
+            </div>
+            <!--qa-->
+        </div>
+        <!--body-->
+
+        <div class="footer" id="questions">
+            <div class="logo logo--footer"></div>
+            <!--logo-->
+        </div>
+        <!--footer-->
+    </div>
+    <!--container-->
+
+    <script defer src="./main.js"></script>
+    </body>
+
+</html>
